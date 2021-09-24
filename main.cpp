@@ -2,7 +2,7 @@
 //  main.cpp
 //  finalProject
 //
-//  Created by Anirudh Lath & Suvam Biswas on 9/20/21.
+//  Created by Anirudh Lath on 9/20/21.
 //
 
 #include <SFML/Graphics.hpp>
