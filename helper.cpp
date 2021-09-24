@@ -30,6 +30,8 @@ ship::ship(sf::RenderWindow & win) {
     dy = 1;
     x = (win.getSize().x / 2) - 50;
     y = (win.getSize().y - 100);
+    xmax = x + (radius * 2.f);
+    ymax = y + (radius * 2.f);
     theShip.setPosition(x, y);
 } // Constructor
 
@@ -47,6 +49,8 @@ void ship::interact(sf::RenderWindow & win) {
             theShip.setPosition(x, y);
         } // Move Right
     }
+    xmax = x + (radius * 2.f);
+    ymax = y + (radius * 2.f);
 } // User Interaction Logic
 
 void ship::draw(sf::RenderWindow & win) {
@@ -59,7 +63,7 @@ sf::CircleShape ship::getShape() {
 
 /// BULLET
 
-bullet::bullet(ship theShip) {
+bullet::bullet(const ship & theShip) {
     
     sf::RectangleShape temp(sf::Vector2f(10.f,10.f));
     theBullet = temp;
@@ -143,8 +147,24 @@ void asteroid::update() {
     theAsteroid.setPosition(x, y);
 } // Move the asteroids down
 
+void asteroid::destructColor(sf::RenderWindow & win) {
+    green = 0;
+    theAsteroid.setFillColor(sf::Color(red, green, blue));
+    draw(win);
+    theAsteroid.setFillColor(sf::Color(0, 0, 0));
+    
+}
+
 bool checkCollision(asteroid &theAsteroid, bullet &theBullet) {
     if (theBullet.y <= theAsteroid.ymax and theBullet.x >= theAsteroid.x and theBullet.x <= theAsteroid.xmax) {
+        return true;
+    }
+    return false;
+} // Check collision between the asteroid and the bullet.
+
+bool checkCollision(asteroid &theAsteroid, ship &theShip) {
+    if (theAsteroid.ymax >= theShip.y and
+        (theAsteroid.x <= theShip.x and theAsteroid.xmax >= theShip.xmax)) {
         return true;
     }
     return false;

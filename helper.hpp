@@ -25,15 +25,19 @@ private:
     int green;
     int blue;
     
-    // Positions
-    int x;
-    int y;
+    
     
     // Velocity
     int dx;
     int dy;
     
 public:
+    // Positions
+    int x;
+    int y;
+    int xmax;
+    int ymax;
+    
     ship(sf::RenderWindow & win); // Constructor
     
     // main functions
@@ -70,7 +74,7 @@ public:
     int xmax;
     int ymax;
     
-    bullet(ship theShip); // Constructor
+    bullet(const ship & theShip); // Constructor
     
     //Main functions
     void interact(sf::RenderWindow & win);
@@ -109,11 +113,13 @@ public:
     // Main functions
     void draw(sf::RenderWindow & win);
     void update();
+    void destructColor(sf::RenderWindow & win);
     
     //Helper functions
     sf::CircleShape getShape() const { return theAsteroid;}
 };
 
 bool checkCollision(asteroid &theAsteroid, bullet &theBullet); // Check collisions declarations
+bool checkCollision(asteroid &theAsteroid, ship &theShip); // Check collisions declarations
 
 #endif /* helper_hpp */
