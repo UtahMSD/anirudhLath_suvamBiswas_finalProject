@@ -37,8 +37,8 @@ int main()
     // Run the program as long as the main window is open.
     while (window.isOpen())
     {
-        frameCount++;
-        window.clear(sf::Color::Black);
+        frameCount++; // Record frameCount
+        window.clear(sf::Color::Black); // Clear the screen
         // Check all the window's events that were triggered since the last iteration of the loop
         sf::Event event;
         while (window.pollEvent(event))
@@ -52,42 +52,39 @@ int main()
         
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Return)) {
             game = true;
-        }
+        } // Don't start the game until the user hits Enter.
         
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space) and bullets.size() < 10 and frameCount % 3 == 0) {
             bullet theBullet(theShip);
             bullets.push_back(theBullet);
-        }
+        } // If Space is pressed add a bullet to vector bullets.
         
         if (rand() % 10 == 0) {
             asteroid theAsteroid(window);
             asteroids.push_back(theAsteroid);
-        }
+        } // Add asteroids randomly.
         
         if (game) {
-            theShip.interact(window);
-            theShip.draw(window);
-            for(int i = 0; i < asteroids.size(); i++) {//bullet & b: bullets){
+            theShip.interact(window); // Allow user to interact with the ship.
+            theShip.draw(window); // Draw the ship.
+            
+            // Update every asteroid
+            for(int i = 0; i < asteroids.size(); i++) {
                 asteroids[i].update();
                 asteroids[i].draw(window);
             }
+            
+            // Update every bullet
             for(int i = 0; i < bullets.size(); i++) {
                 bullets[i].interact(window);
                 bullets[i].draw(window);
                 if (!bullets[i].checkCollisionWindow(window)) {
                 } else {
-                    bullets.erase(bullets.begin() + i);
+                    bullets.erase(bullets.begin() + i); // Remove the bullet when it collides with the edge of the window.
                 }
             }
             
-//            for(asteroid i: asteroids) {
-//                i.draw(window);
-//            }
-//            for(bullet i: bullets) {
-//                i.draw(window);
-//            }
-            
-
+            // Check collisions between asteroids and the bullets.
             for(int i = 0; i < bullets.size(); i++) {
                 for (int j = 0; j < asteroids.size(); j++) {
                     if (checkCollision(asteroids[j], bullets[i])) {
