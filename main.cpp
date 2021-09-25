@@ -89,7 +89,7 @@ int main()
             bullets.push_back(theBullet);
         } // If Space is pressed add a bullet to vector bullets.
         
-        if (rand() % 12 == 0 and game) {
+        if ((rand() % 12 == 0 and game) or asteroids.size() < 7 ) {
             asteroid theAsteroid(window);
             asteroids.push_back(theAsteroid);
         } // Add asteroids randomly.
