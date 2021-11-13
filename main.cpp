@@ -6,9 +6,7 @@
 //
 
 #include <SFML/Graphics.hpp>
-#include <SFML/Graphics/Drawable.hpp>
-#include <SFML/Graphics/Font.hpp>
-#include <math.h>
+#include <SFML/Audio/Music.hpp>
 #include "helper.hpp"
 #include <time.h>
 #include <iostream>
@@ -53,6 +51,15 @@ int main()
     score.setPosition(sf::Vector2f(10, 10));
 
     bool isOn = false;
+
+    sf::Music bgMusic;
+    if (!bgMusic.openFromFile("bgsound.wav")) {
+        return -1;
+        cout << "Music Error";
+    }
+    bgMusic.setLoop(true);
+    bgMusic.play();
+
     
 
 
@@ -94,7 +101,7 @@ int main()
             bullets.push_back(theBullet);
         } // If Space is pressed add a bullet to vector bullets.
         
-        if ((rand() % 25 == 0 and game) or asteroids.size() < 7 ) {
+        if ((rand() % 30 == 0 and game) or asteroids.size() < 7 ) {
             asteroid theAsteroid(window);
             asteroids.push_back(theAsteroid);
         } // Add asteroids randomly.

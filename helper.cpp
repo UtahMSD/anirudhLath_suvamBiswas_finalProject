@@ -125,7 +125,7 @@ asteroid::asteroid(sf::RenderWindow & win) {
     blue = rand() % 255;
     green = rand() % 255;
     dx = 0;
-    dy = rand() % 12;
+    dy = rand() % 10;
     theAsteroid.setFillColor(sf::Color(red, blue, green));
     
     //Set the position
