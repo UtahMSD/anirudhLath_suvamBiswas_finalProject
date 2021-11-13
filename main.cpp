@@ -7,9 +7,11 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio/Music.hpp>
-#include "helper.hpp"
 #include <time.h>
 #include <iostream>
+#include "ship.hpp"
+#include "bullet.hpp"
+#include "asteroids.hpp"
 
 
 using namespace std;
