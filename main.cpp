@@ -153,6 +153,7 @@ int main()
                                    textRect.top  + textRect.height/2.0f);
                     Text.setPosition(sf::Vector2f(windowWidth/2.0f, windowHeight/2.0f));
                     game = false;
+                    bgMusic.stop();
                 }
             }
             window.draw(score);
