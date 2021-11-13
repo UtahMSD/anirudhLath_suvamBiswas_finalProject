@@ -171,3 +171,11 @@ bool checkCollision(asteroid &theAsteroid, ship &theShip) {
 } // Check collision between the asteroid and the bullet.
 
 
+bool checkCollision(asteroid &theAsteroid, int height) {
+    if (theAsteroid.ymax >= height) {
+        return true;
+    }
+    return false;
+} // Check collision between the asteroid and the bullet.
+
+

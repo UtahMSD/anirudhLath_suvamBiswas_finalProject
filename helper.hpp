@@ -121,5 +121,6 @@ public:
 
 bool checkCollision(asteroid &theAsteroid, bullet &theBullet); // Check collisions declarations
 bool checkCollision(asteroid &theAsteroid, ship &theShip); // Check collisions declarations
+bool checkCollision(asteroid &theAsteroid, int height); // Check collisions with the edge of screen
 
 #endif /* helper_hpp */

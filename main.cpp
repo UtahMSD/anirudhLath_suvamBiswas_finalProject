@@ -94,7 +94,7 @@ int main()
             bullets.push_back(theBullet);
         } // If Space is pressed add a bullet to vector bullets.
         
-        if ((rand() % 12 == 0 and game) or asteroids.size() < 7 ) {
+        if ((rand() % 25 == 0 and game) or asteroids.size() < 7 ) {
             asteroid theAsteroid(window);
             asteroids.push_back(theAsteroid);
         } // Add asteroids randomly.
@@ -138,7 +138,7 @@ int main()
             }
             
             for (int j = 0; j < asteroids.size(); j++) {
-                if(checkCollision(asteroids[j], theShip)) {
+                if(checkCollision(asteroids[j], theShip) or checkCollision(asteroids[j], windowHeight)) {
                     sf::Text temp("GAME OVER", MyFont, 50);
                     Text = temp;
                     sf::FloatRect textRect = Text.getLocalBounds();
