@@ -51,6 +51,8 @@ int main()
     int Score = 0;
     sf::Text score("Score: " + to_string(Score), MyFont, 20);
     score.setPosition(sf::Vector2f(10, 10));
+
+    bool isOn = false;
     
 
 
@@ -81,7 +83,10 @@ int main()
         
         
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Return)) {
-            game = true;
+            if (!isOn) {
+                game = true;
+                isOn = true;
+            }
         } // Don't start the game until the user hits Enter.
         
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space) and bullets.size() < 10 and frameCount % 3 == 0 and game) {
