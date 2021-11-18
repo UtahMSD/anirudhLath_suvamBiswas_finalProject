@@ -159,7 +159,7 @@ CMakeFiles/FinalProjectCS6010.dir/bullet.obj: \
  ../bullet.cpp \
  ../bullet.hpp \
  ../ship.hpp
-CMakeFiles/FinalProjectCS6010.dir/main.obj: \
+CMakeFiles/FinalProjectCS6010.dir/gameController.obj: \
  C:/SFML/include/SFML/Audio/AlResource.hpp \
  C:/SFML/include/SFML/Audio/Export.hpp \
  C:/SFML/include/SFML/Audio/InputSoundFile.hpp \
@@ -242,8 +242,12 @@ CMakeFiles/FinalProjectCS6010.dir/main.obj: \
  C:/SFML/include/SFML/Window/WindowStyle.hpp \
  ../asteroids.hpp \
  ../bullet.hpp \
- ../main.cpp \
+ ../gameController.cpp \
+ ../gameController.hpp \
  ../ship.hpp
+CMakeFiles/FinalProjectCS6010.dir/main.obj: \
+ ../gameController.hpp \
+ ../main.cpp
 CMakeFiles/FinalProjectCS6010.dir/ship.obj: \
  C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/Graphics.hpp \

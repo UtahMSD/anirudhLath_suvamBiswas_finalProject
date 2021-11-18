@@ -1,0 +1,11 @@
+//
+// Created by aniru on 11/18/2021.
+//
+
+#ifndef FINALPROJECTCS6010_GAMECONTROLLER_HPP
+#define FINALPROJECTCS6010_GAMECONTROLLER_HPP
+
+int play();
+void restart();
+
+#endif //FINALPROJECTCS6010_GAMECONTROLLER_HPP

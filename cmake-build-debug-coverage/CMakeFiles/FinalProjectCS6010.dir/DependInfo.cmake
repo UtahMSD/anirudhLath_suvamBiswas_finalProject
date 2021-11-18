@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/aniru/Desktop/FinalProjectCS6010/asteroids.cpp" "C:/Users/aniru/Desktop/FinalProjectCS6010/cmake-build-debug-coverage/CMakeFiles/FinalProjectCS6010.dir/asteroids.obj"
   "C:/Users/aniru/Desktop/FinalProjectCS6010/bullet.cpp" "C:/Users/aniru/Desktop/FinalProjectCS6010/cmake-build-debug-coverage/CMakeFiles/FinalProjectCS6010.dir/bullet.obj"
-  "C:/Users/aniru/Desktop/FinalProjectCS6010/helper.cpp" "C:/Users/aniru/Desktop/FinalProjectCS6010/cmake-build-debug-coverage/CMakeFiles/FinalProjectCS6010.dir/helper.obj"
+  "C:/Users/aniru/Desktop/FinalProjectCS6010/gameController.cpp" "C:/Users/aniru/Desktop/FinalProjectCS6010/cmake-build-debug-coverage/CMakeFiles/FinalProjectCS6010.dir/gameController.obj"
   "C:/Users/aniru/Desktop/FinalProjectCS6010/main.cpp" "C:/Users/aniru/Desktop/FinalProjectCS6010/cmake-build-debug-coverage/CMakeFiles/FinalProjectCS6010.dir/main.obj"
   "C:/Users/aniru/Desktop/FinalProjectCS6010/ship.cpp" "C:/Users/aniru/Desktop/FinalProjectCS6010/cmake-build-debug-coverage/CMakeFiles/FinalProjectCS6010.dir/ship.obj"
   )

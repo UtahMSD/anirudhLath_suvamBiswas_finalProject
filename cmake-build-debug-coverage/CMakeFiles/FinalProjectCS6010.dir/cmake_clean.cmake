@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FinalProjectCS6010.dir/asteroids.obj"
   "CMakeFiles/FinalProjectCS6010.dir/bullet.obj"
-  "CMakeFiles/FinalProjectCS6010.dir/helper.obj"
+  "CMakeFiles/FinalProjectCS6010.dir/gameController.obj"
   "CMakeFiles/FinalProjectCS6010.dir/main.obj"
   "CMakeFiles/FinalProjectCS6010.dir/ship.obj"
   "FinalProjectCS6010.exe"

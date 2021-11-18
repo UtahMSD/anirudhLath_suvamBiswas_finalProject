@@ -159,19 +159,19 @@ bullet.s:
 .PHONY : bullet.s
 
 # target to build an object file
-helper.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProjectCS6010.dir\build.make CMakeFiles/FinalProjectCS6010.dir/helper.obj
-.PHONY : helper.obj
+gameController.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProjectCS6010.dir\build.make CMakeFiles/FinalProjectCS6010.dir/gameController.obj
+.PHONY : gameController.obj
 
 # target to preprocess a source file
-helper.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProjectCS6010.dir\build.make CMakeFiles/FinalProjectCS6010.dir/helper.i
-.PHONY : helper.i
+gameController.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProjectCS6010.dir\build.make CMakeFiles/FinalProjectCS6010.dir/gameController.i
+.PHONY : gameController.i
 
 # target to generate assembly for a file
-helper.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProjectCS6010.dir\build.make CMakeFiles/FinalProjectCS6010.dir/helper.s
-.PHONY : helper.s
+gameController.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProjectCS6010.dir\build.make CMakeFiles/FinalProjectCS6010.dir/gameController.s
+.PHONY : gameController.s
 
 # target to build an object file
 main.obj:
@@ -218,9 +218,9 @@ help:
 	@echo ... bullet.obj
 	@echo ... bullet.i
 	@echo ... bullet.s
-	@echo ... helper.obj
-	@echo ... helper.i
-	@echo ... helper.s
+	@echo ... gameController.obj
+	@echo ... gameController.i
+	@echo ... gameController.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

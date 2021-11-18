@@ -96,6 +96,12 @@
 		<Unit filename="C:/Users/aniru/Desktop/FinalProjectCS6010/bullet.hpp">
 			<Option target="FinalProjectCS6010"/>
 		</Unit>
+		<Unit filename="C:/Users/aniru/Desktop/FinalProjectCS6010/gameController.cpp">
+			<Option target="FinalProjectCS6010"/>
+		</Unit>
+		<Unit filename="C:/Users/aniru/Desktop/FinalProjectCS6010/gameController.hpp">
+			<Option target="FinalProjectCS6010"/>
+		</Unit>
 		<Unit filename="C:/Users/aniru/Desktop/FinalProjectCS6010/main.cpp">
 			<Option target="FinalProjectCS6010"/>
 		</Unit>

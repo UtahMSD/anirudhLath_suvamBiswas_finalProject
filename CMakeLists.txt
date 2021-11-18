@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(c:/SFML/include)
 add_executable(FinalProjectCS6010
-        main.cpp asteroids.hpp ship.hpp bullet.hpp asteroids.cpp ship.cpp bullet.cpp)
+        main.cpp asteroids.hpp ship.hpp bullet.hpp asteroids.cpp ship.cpp bullet.cpp gameController.cpp gameController.hpp)
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
 find_package(SFML REQUIRED system window graphics audio)

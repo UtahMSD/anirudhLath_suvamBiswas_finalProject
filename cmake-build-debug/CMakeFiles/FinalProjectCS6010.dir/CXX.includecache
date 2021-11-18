@@ -734,14 +734,6 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/aniru/Desktop/FinalProjectCS6010/asteroids.cpp
-SFML/Graphics.hpp
--
-iostream
--
-ship.hpp
-C:/Users/aniru/Desktop/FinalProjectCS6010/ship.hpp
-
 C:/Users/aniru/Desktop/FinalProjectCS6010/asteroids.hpp
 stdio.h
 -
@@ -756,14 +748,6 @@ C:/Users/aniru/Desktop/FinalProjectCS6010/ship.hpp
 bullet.hpp
 C:/Users/aniru/Desktop/FinalProjectCS6010/bullet.hpp
 
-C:/Users/aniru/Desktop/FinalProjectCS6010/bullet.cpp
-SFML/Graphics.hpp
--
-iostream
--
-ship.hpp
-C:/Users/aniru/Desktop/FinalProjectCS6010/ship.hpp
-
 C:/Users/aniru/Desktop/FinalProjectCS6010/bullet.hpp
 stdio.h
 -
@@ -776,7 +760,9 @@ iostream
 ship.hpp
 C:/Users/aniru/Desktop/FinalProjectCS6010/ship.hpp
 
-C:/Users/aniru/Desktop/FinalProjectCS6010/main.cpp
+C:/Users/aniru/Desktop/FinalProjectCS6010/gameController.cpp
+gameController.hpp
+C:/Users/aniru/Desktop/FinalProjectCS6010/gameController.hpp
 SFML/Graphics.hpp
 -
 SFML/Audio/Music.hpp
@@ -792,13 +778,7 @@ C:/Users/aniru/Desktop/FinalProjectCS6010/bullet.hpp
 asteroids.hpp
 C:/Users/aniru/Desktop/FinalProjectCS6010/asteroids.hpp
 
-C:/Users/aniru/Desktop/FinalProjectCS6010/ship.cpp
-SFML/Graphics.hpp
--
-iostream
--
-ship.hpp
-C:/Users/aniru/Desktop/FinalProjectCS6010/ship.hpp
+C:/Users/aniru/Desktop/FinalProjectCS6010/gameController.hpp
 
 C:/Users/aniru/Desktop/FinalProjectCS6010/ship.hpp
 stdio.h

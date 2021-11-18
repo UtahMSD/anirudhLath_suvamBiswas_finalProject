@@ -159,6 +159,21 @@ bullet.s:
 .PHONY : bullet.s
 
 # target to build an object file
+gameController.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProjectCS6010.dir\build.make CMakeFiles/FinalProjectCS6010.dir/gameController.obj
+.PHONY : gameController.obj
+
+# target to preprocess a source file
+gameController.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProjectCS6010.dir\build.make CMakeFiles/FinalProjectCS6010.dir/gameController.i
+.PHONY : gameController.i
+
+# target to generate assembly for a file
+gameController.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProjectCS6010.dir\build.make CMakeFiles/FinalProjectCS6010.dir/gameController.s
+.PHONY : gameController.s
+
+# target to build an object file
 main.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FinalProjectCS6010.dir\build.make CMakeFiles/FinalProjectCS6010.dir/main.obj
 .PHONY : main.obj
@@ -203,6 +218,9 @@ help:
 	@echo ... bullet.obj
 	@echo ... bullet.i
 	@echo ... bullet.s
+	@echo ... gameController.obj
+	@echo ... gameController.i
+	@echo ... gameController.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

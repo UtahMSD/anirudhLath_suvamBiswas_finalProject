@@ -65,24 +65,10 @@ include CMakeFiles/FinalProjectCS6010.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FinalProjectCS6010.dir/flags.make
 
-CMakeFiles/FinalProjectCS6010.dir/helper.obj: CMakeFiles/FinalProjectCS6010.dir/flags.make
-CMakeFiles/FinalProjectCS6010.dir/helper.obj: CMakeFiles/FinalProjectCS6010.dir/includes_CXX.rsp
-CMakeFiles/FinalProjectCS6010.dir/helper.obj: ../helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aniru\Desktop\FinalProjectCS6010\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FinalProjectCS6010.dir/helper.obj"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FinalProjectCS6010.dir\helper.obj -c C:\Users\aniru\Desktop\FinalProjectCS6010\helper.cpp
-
-CMakeFiles/FinalProjectCS6010.dir/helper.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProjectCS6010.dir/helper.i"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aniru\Desktop\FinalProjectCS6010\helper.cpp > CMakeFiles\FinalProjectCS6010.dir\helper.i
-
-CMakeFiles/FinalProjectCS6010.dir/helper.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProjectCS6010.dir/helper.s"
-	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aniru\Desktop\FinalProjectCS6010\helper.cpp -o CMakeFiles\FinalProjectCS6010.dir\helper.s
-
 CMakeFiles/FinalProjectCS6010.dir/main.obj: CMakeFiles/FinalProjectCS6010.dir/flags.make
 CMakeFiles/FinalProjectCS6010.dir/main.obj: CMakeFiles/FinalProjectCS6010.dir/includes_CXX.rsp
 CMakeFiles/FinalProjectCS6010.dir/main.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aniru\Desktop\FinalProjectCS6010\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinalProjectCS6010.dir/main.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aniru\Desktop\FinalProjectCS6010\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FinalProjectCS6010.dir/main.obj"
 	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FinalProjectCS6010.dir\main.obj -c C:\Users\aniru\Desktop\FinalProjectCS6010\main.cpp
 
 CMakeFiles/FinalProjectCS6010.dir/main.i: cmake_force
@@ -96,7 +82,7 @@ CMakeFiles/FinalProjectCS6010.dir/main.s: cmake_force
 CMakeFiles/FinalProjectCS6010.dir/asteroids.obj: CMakeFiles/FinalProjectCS6010.dir/flags.make
 CMakeFiles/FinalProjectCS6010.dir/asteroids.obj: CMakeFiles/FinalProjectCS6010.dir/includes_CXX.rsp
 CMakeFiles/FinalProjectCS6010.dir/asteroids.obj: ../asteroids.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aniru\Desktop\FinalProjectCS6010\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinalProjectCS6010.dir/asteroids.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aniru\Desktop\FinalProjectCS6010\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinalProjectCS6010.dir/asteroids.obj"
 	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FinalProjectCS6010.dir\asteroids.obj -c C:\Users\aniru\Desktop\FinalProjectCS6010\asteroids.cpp
 
 CMakeFiles/FinalProjectCS6010.dir/asteroids.i: cmake_force
@@ -110,7 +96,7 @@ CMakeFiles/FinalProjectCS6010.dir/asteroids.s: cmake_force
 CMakeFiles/FinalProjectCS6010.dir/ship.obj: CMakeFiles/FinalProjectCS6010.dir/flags.make
 CMakeFiles/FinalProjectCS6010.dir/ship.obj: CMakeFiles/FinalProjectCS6010.dir/includes_CXX.rsp
 CMakeFiles/FinalProjectCS6010.dir/ship.obj: ../ship.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aniru\Desktop\FinalProjectCS6010\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinalProjectCS6010.dir/ship.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aniru\Desktop\FinalProjectCS6010\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinalProjectCS6010.dir/ship.obj"
 	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FinalProjectCS6010.dir\ship.obj -c C:\Users\aniru\Desktop\FinalProjectCS6010\ship.cpp
 
 CMakeFiles/FinalProjectCS6010.dir/ship.i: cmake_force
@@ -124,7 +110,7 @@ CMakeFiles/FinalProjectCS6010.dir/ship.s: cmake_force
 CMakeFiles/FinalProjectCS6010.dir/bullet.obj: CMakeFiles/FinalProjectCS6010.dir/flags.make
 CMakeFiles/FinalProjectCS6010.dir/bullet.obj: CMakeFiles/FinalProjectCS6010.dir/includes_CXX.rsp
 CMakeFiles/FinalProjectCS6010.dir/bullet.obj: ../bullet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aniru\Desktop\FinalProjectCS6010\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FinalProjectCS6010.dir/bullet.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aniru\Desktop\FinalProjectCS6010\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinalProjectCS6010.dir/bullet.obj"
 	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FinalProjectCS6010.dir\bullet.obj -c C:\Users\aniru\Desktop\FinalProjectCS6010\bullet.cpp
 
 CMakeFiles/FinalProjectCS6010.dir/bullet.i: cmake_force
@@ -135,22 +121,36 @@ CMakeFiles/FinalProjectCS6010.dir/bullet.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProjectCS6010.dir/bullet.s"
 	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aniru\Desktop\FinalProjectCS6010\bullet.cpp -o CMakeFiles\FinalProjectCS6010.dir\bullet.s
 
+CMakeFiles/FinalProjectCS6010.dir/gameController.obj: CMakeFiles/FinalProjectCS6010.dir/flags.make
+CMakeFiles/FinalProjectCS6010.dir/gameController.obj: CMakeFiles/FinalProjectCS6010.dir/includes_CXX.rsp
+CMakeFiles/FinalProjectCS6010.dir/gameController.obj: ../gameController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aniru\Desktop\FinalProjectCS6010\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FinalProjectCS6010.dir/gameController.obj"
+	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FinalProjectCS6010.dir\gameController.obj -c C:\Users\aniru\Desktop\FinalProjectCS6010\gameController.cpp
+
+CMakeFiles/FinalProjectCS6010.dir/gameController.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProjectCS6010.dir/gameController.i"
+	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aniru\Desktop\FinalProjectCS6010\gameController.cpp > CMakeFiles\FinalProjectCS6010.dir\gameController.i
+
+CMakeFiles/FinalProjectCS6010.dir/gameController.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProjectCS6010.dir/gameController.s"
+	C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\aniru\Desktop\FinalProjectCS6010\gameController.cpp -o CMakeFiles\FinalProjectCS6010.dir\gameController.s
+
 # Object files for target FinalProjectCS6010
 FinalProjectCS6010_OBJECTS = \
-"CMakeFiles/FinalProjectCS6010.dir/helper.obj" \
 "CMakeFiles/FinalProjectCS6010.dir/main.obj" \
 "CMakeFiles/FinalProjectCS6010.dir/asteroids.obj" \
 "CMakeFiles/FinalProjectCS6010.dir/ship.obj" \
-"CMakeFiles/FinalProjectCS6010.dir/bullet.obj"
+"CMakeFiles/FinalProjectCS6010.dir/bullet.obj" \
+"CMakeFiles/FinalProjectCS6010.dir/gameController.obj"
 
 # External object files for target FinalProjectCS6010
 FinalProjectCS6010_EXTERNAL_OBJECTS =
 
-FinalProjectCS6010.exe: CMakeFiles/FinalProjectCS6010.dir/helper.obj
 FinalProjectCS6010.exe: CMakeFiles/FinalProjectCS6010.dir/main.obj
 FinalProjectCS6010.exe: CMakeFiles/FinalProjectCS6010.dir/asteroids.obj
 FinalProjectCS6010.exe: CMakeFiles/FinalProjectCS6010.dir/ship.obj
 FinalProjectCS6010.exe: CMakeFiles/FinalProjectCS6010.dir/bullet.obj
+FinalProjectCS6010.exe: CMakeFiles/FinalProjectCS6010.dir/gameController.obj
 FinalProjectCS6010.exe: CMakeFiles/FinalProjectCS6010.dir/build.make
 FinalProjectCS6010.exe: /SFML/lib/libsfml-system-d.a
 FinalProjectCS6010.exe: /SFML/lib/libsfml-window-d.a
