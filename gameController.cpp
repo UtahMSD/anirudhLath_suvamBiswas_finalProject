@@ -13,7 +13,7 @@
 
 using namespace std;
 
-bool ranOnce = false;
+
 
 int play() {
     srand((int) time(NULL));
@@ -100,9 +100,11 @@ int play() {
             }*/
         } // Don't start the game until the user hits Enter.
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::R)) {
-            bgMusic.stop();
-            restart();
-            return 0;
+            if (isOn) {
+                bgMusic.stop();
+                restart();
+                return 0;
+            }
         } // Don't start the game until the user hits Enter.
 
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space) and bullets.size() < 10 and frameCount % 3 == 0 and game) {
